@@ -3,6 +3,8 @@ Release Notes
 
 **Future Releases**
     * Enhancements
+        * Adjusted ``explain_prediction``, ``explain_predictions`` and ``explain_predictions_best_worst``
+        to handle time-series problems. :pr:`1818`
     * Fixes
     * Changes
     * Documentation Changes
