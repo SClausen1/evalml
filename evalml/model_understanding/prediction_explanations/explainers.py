@@ -13,11 +13,7 @@ from evalml.model_understanding.prediction_explanations._report_creator_factory 
 from evalml.model_understanding.prediction_explanations._user_interface import (
     _make_single_prediction_shap_table
 )
-from evalml.problem_types import (
-    ProblemTypes,
-    is_regression,
-    is_time_series
-)
+from evalml.problem_types import ProblemTypes, is_regression, is_time_series
 from evalml.utils import (
     _convert_to_woodwork_structure,
     _convert_woodwork_types_wrapper
